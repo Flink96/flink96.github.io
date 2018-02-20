@@ -1,0 +1,47 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.task-info .task+.task-info .task{
+    border-bottom: 1px solid;
+}
+.task span{
+    color:white;
+    background-color: rgba( 39, 204, 195, 1);
+    border-radius: 8px;
+    min-width: 25px;
+    height: 18px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.task-title-cont{
+    display: flex;
+}
+.task .task-title-cont .task-title{
+    background-color: inherit;
+    border-width: 0;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+.task-info .task .task-title-cont{
+    max-width: 70%;
+    flex-wrap: wrap;
+}
+.task button.task-title:focus {
+    outline: none;
+}
+.task .button-del{
+    background-color: inherit;
+    border-color: rgba( 255, 0, 0, 0.4);
+    border-radius: 4px;
+    padding: 7px 21px;
+    color: rgba( 255, 0, 0, 0.6);
+    border-width: 1px;
+}

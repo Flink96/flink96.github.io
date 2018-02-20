@@ -1,0 +1,99 @@
+.list{
+    width: 47%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.flex-container .comments{
+    width:47%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 25px;
+    margin-left: 15px;
+    min-height: 400px;
+}
+.flex-container{
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.flex-container .list .title{
+    font-weight: 200;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.flex-container .list .addCard{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.flex-container .list .addCard textarea{
+    width: 66%;
+    height: 23px;
+    border: 1px solid;
+    padding-top: 5px;
+    border-radius: 3px;
+    border-color: rgba( 0, 0, 0, 0.2);
+    resize: none;
+}
+.flex-container .list .addCard button{
+    width: 28%;
+    height: 32px;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    margin-right: 15px;
+    background-color: rgba( 39, 204, 195, 1);
+}
+.task{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid;
+    border-color: rgba(0,0,0,0.1);
+}
+
+.flex-container .list .active-task{
+    border-left: 2px solid;
+    border-color: rgba( 255, 0, 0, 0.6);
+}
+
+.active{
+    display: none;
+}
+.comments h2{
+    font-weight: 200;
+    padding-left: 15px;
+}
+.comments-info+.comments-info{
+    border-top: 1px solid;
+    border-color: rgba( 0, 0, 0, 0.1);
+    padding-top: 8px;
+}
+.comments .comments-info{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgba( 0, 0, 0, 0.8);
+    padding-bottom: 7px;
+}
+.comments textarea{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70%;
+    height: 70px;
+    border: 1px solid;
+    padding-top: 5px;
+    border-radius: 3px;
+    border-color: rgba( 0, 0, 0, 0.2);
+    resize: none;
+}
+
+.display-flex{
+    display: flex;
+}
+.display-flex .box{
+    margin-left: 15px;
+    margin-top: 10px;
+}

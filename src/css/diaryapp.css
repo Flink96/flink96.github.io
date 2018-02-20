@@ -1,0 +1,14 @@
+.dairyApp{
+    width: 20%;
+    height: 100vh;
+    background-color: #34404b;
+    padding-left: 20px;
+}
+.dairyApp h1{
+    font-weight: 200;
+    color: #f9f9f9;
+    -webkit-margin-after: 5px;
+}
+.dairyApp span{
+    color: rgba( 249, 249, 249, 0.4);
+}
